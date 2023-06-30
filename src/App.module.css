@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+@media(max-width: 768px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media(max-width: 500px) {
+    html {
+        font-size: 52%;
+    }
+}
+
+@media(max-width: 390px) {
+    html {
+        font-size: 48%;
+    }
+}
+
+@media(max-width: 300px) {
+    html {
+        font-size: 35%;
+    }
+}

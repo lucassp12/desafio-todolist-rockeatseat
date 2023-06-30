@@ -1,0 +1,45 @@
+.createTask {
+    margin-top: calc(0px - 1.5rem - 6px);
+}
+
+.createTask form {
+    width: 46rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.createTask form input {
+    width: 39.875rem;
+    height: 3.375rem;
+    background-color: var(--gray-500);
+    padding: 1rem;
+    color: var(--gray-300);
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 0;
+    margin-right: 8px;
+}
+
+.createTask button[type=submit] {
+    padding: 1rem 1.2rem;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+    background-color: var(--blue-dark);
+    border-radius: 8px;
+    color: var(--gray-100);
+    font-size: 0.875rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s background-color;
+}
+
+.createTask button[type=submit]:hover {
+    background-color: var(--blue);
+}
+
+.createTask button[type=submit] svg {
+    margin-left: 5px;
+}

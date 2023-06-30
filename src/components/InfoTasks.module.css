@@ -1,0 +1,40 @@
+.infoTasks {
+    margin-top: 4rem;
+}
+
+.infoTasks header {
+    width: 46rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+
+.createdTasks strong {
+    color: var(--blue);
+    margin-right: 8px;
+    font-size: 0.875rem;
+}
+
+.createdTasks span {
+    padding: 0.125rem 0.5rem;
+    background: var(--gray-400);
+    font-weight: bold;
+    color: var(--gray-200);
+    border-radius: 999px;
+    font-size: 0.75rem;
+}
+
+.completedTasks strong {
+    color: var(--purple);
+    margin-right: 8px;
+    font-size: 0.875rem;
+}
+
+.completedTasks span {
+    padding: 0.125rem 0.5rem;
+    background: var(--gray-400);
+    font-weight: bold;
+    color: var(--gray-200);
+    border-radius: 999px;
+    font-size: 0.75rem;
+}
